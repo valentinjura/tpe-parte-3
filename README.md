@@ -28,7 +28,7 @@ Obtener un producto por ID
             campo: Campo por el cual ordenar los productos.
     Ejemplos de uso:
                 localhost/tp3/api/productos?sort=nombre
-                localhost/tp3/api/productos?sort=id
+               
 
 
 
@@ -44,7 +44,7 @@ Obtener productos ordenados en un sentido específico
 
 
  Obtener productos filtrados
-    Ruta: /productosf?[campo]=[condicion]
+    Ruta: /productos?[campo]=[condicion]
     Método: GET
     Descripción: Obtiene productos según un filtro específico.
     Ejemplos de uso:
@@ -54,7 +54,7 @@ Obtener productos ordenados en un sentido específico
 
 
 Obtener productos paginados
-    Ruta: /productosp?page= &perpage= 
+    Ruta: /productos?page= &perpage= 
     Método: GET
     Descripción: Obtiene productos paginados.
     Ejemplos de uso:
